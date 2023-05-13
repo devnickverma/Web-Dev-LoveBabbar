@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#instro">Introduction</a></li>
+            <li><a href="#input-section">Input Section</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#head-tags">Head tags</a></li>
+            <li><a href="#hr-para">Hr and Paragraph Tag</a></li>
+        </ul>
+    </nav>
+
+    <div id="instro">
+        <h1>I Frame: </h1>
+        <iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200"
+          src="/Lecture 4//demo-image-addcheck.png">
+        </iframe>
+
+
+        <h1>Image: </h1>
+        <img src="/Lecture 4//demo-image-addcheck.png" alt="This is a image from local" width="104" height="142">
+    </div>
+
+    <div id="input-section">
+        <h1>Input types :</h1>
+        <h2>Text: </h2>
+        <label for="name">Name (4 to 8 characters):</label>
+
+        <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+
+        <h2>Button: </h2>
+        <input type="button" value="Click Here">
+
+        <h2>Checkbox : </h2>
+        <input type="checkbox">
+
+        <h2>Color : </h2>
+        <input type="color" value="black">
+
+        <h2>Date : </h2>
+        <input type="date" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+
+        <h2>Date and time : </h2>
+        <input type="datetime-local" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00">
+
+        <h2>Email : </h2>
+        <input type="email" size="30" required>
+
+        <h2>File : </h2>
+        <input type="file" accept="image/png, image/jpeg">
+
+        <h2>Submit: </h2>
+        <input type="submit" value="Send Request" />
+
+        <h2>Time : </h2>
+        <input type="time" min="09:00" max="18:00" required>
+
+        <h2>Url : </h2>
+        <input type="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+
+        <h2>Week : </h2>
+        <input type="week" min="2000-W1" max="2023-W26" required>
+
+    </div>
+
+    <h2 id="form"> Form : </h2>
+    <div id="form">
+        <form>
+            <div>
+                <label for="name">Enter your name: </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div>
+                <label for="email">Enter your email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <input type="submit" value="Subscribe!">
+        </form>
+    </div>
+
+    <h2>Head tags : </h2>
+    <div id="head-tags">
+        <h1>This is H1</h1>
+        <h2>This is H2</h2>
+        <h3>This is H3</h3>
+        <h4>This is H4</h4>
+        <h5>This is H5</h5>
+        <h6>This is H6</h6>
+    </div>
+</body>
+
+<div id="hr-para">
+    <h2>Hr and Paragraph Tag : </h2>
+    <p>§1: The first rule of Fight Club is: You do not talk about Fight Club.</p>
+    <hr>
+    <p>§2: The second rule of Fight Club is: Always bring cupcakes.</p>
+</div>
+
+</html>
