@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Travel reservation form</h1>
+    <h3>Denotes mandatory</h3>
+    <form>
+        <label for="name">Full name :</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="email">Email address :</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email Address">
+        <br>
+        <br>
+        <label for="tour-package">Select tour package :</label>
+        <select name="tour-package" id="tour-package">
+            <option value="Goa">Goa</option>
+            <option value="America">America</option>
+            <option value="Korea">Korea</option>
+        </select>
+        <br>
+        <br>
+        <label for="Arrival-date">Arrival-date</label>
+        <input type="date" name="Arrival-date" id="Arrival-date">
+        <br>
+        <br>
+        <label for="No-of-persons">Number of persons : </label>
+        <input type="number" name="No-of-persons" id="No-of-persons" placeholder="Enter the Number">
+        <br>
+        <br>
+        <label for="avail">What would you want to avail ?</label>
+        <br>
+        <label for="Bording">Bording : </label>
+        <input type="checkbox" name="Bording" id="Bording">
+        <br>
+        <label for="Fooding">Fooding : </label>
+        <input type="checkbox" name="Fooding" id="Fooding">
+        <br>
+        <label for="Sight-seeing">Sight seeing : </label>
+        <input type="checkbox" name="Sight-seeing" id="Sight-seeing">
+        <br>
+        <br>
+        <label for="coupon-code">Coupon-code : </label>
+        <input type="text" name="coupon-code" id="coupon-code">
+        <br>
+        <label for="terms-conditins">Terms and conditions : </label>
+        <br>
+        <input type="radio" name="terms-conditins" id="terms-conditins" value="agree">
+        <label for="">I agree</label>
+        <input type="radio" name="terms-conditins" id="terms-conditins" value="disagree">
+        <label for="">I disagree</label>
+        <br>
+        <button>Complete reservation</button>
+    </form>
+</body>
+
+</html>

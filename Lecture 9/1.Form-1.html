@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form 1</title>
+    <style>
+        form {
+
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Novel services login</h1>
+    <form>
+        <label for="name">Username : </label>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <label for="password">Password : </label>
+        <input type="password" id="password">
+        <br>
+        <br>
+        <label for="city">City of : </label>
+        <input type="text" id="city">
+        <br>
+        <br>
+        <label for="employment">Employment : </label>
+        <input type="text" id="employment">
+        <br>
+        <br>
+        <label for="webserver">Web server : </label>
+        <select name="webserver" id="webserver">
+            <option value="
+            Apache HTTP Server">
+            Apache HTTP Server</option>
+            <option value="
+            Nginx">
+            Nginx</option>
+            <option value="lighttpd">lighttpd</option>
+        </select>
+        <br>
+        <br>
+        <label for="specify-role">Please specify your role :</label>
+        <input type="radio" name="specify-role" id="specify-role" value="Admin">
+        <label for="specify-role">Admin</label>
+        <input type="radio" name="specify-role" id="specify-role" value="Engineer">
+        <label for="specify-role">Engineer</label>
+        <input type="radio" name="specify-role" id="specify-role" value="Manager">
+        <label for="specify-role">Manager</label>
+        <input type="radio" name="specify-role" id="specify-role" value="Guest">
+        <label for="specify-role">Guest</label>
+        <br>
+        <br>
+        <label for="sign-on">Single Sign-on to the followong :</label>
+        <input type="checkbox" id="mail">
+        <label for="mail">Mail</label>
+        <input type="checkbox" id="payroll">
+        <label for="payroll">Payroll</label>
+        <input type="checkbox" id="self-service">
+        <label for="self-service">Self-service</label>
+        <br>
+        <br>
+        <button>Login</button>
+        <button>Submit</button>
+    </form>
 </body>
 </html>
